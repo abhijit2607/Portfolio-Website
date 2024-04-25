@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijit - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #2a2438;
+            color: #dbd8e3;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background: #352f44;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        nav ul li a:hover {
+            color: #c7b5ef;
+            font-size: 1.1rem;
+        }
+
+        main hr {
+            margin: 30px 50px;
+            border: 0;
+            background: #5c5470;
+            height: 2px;
+            opacity: 40%;
+        }
+
+        .first-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 32px 0;
+        }
+
+        .first-section div {
+            width: 30%;
+        }
+
+        .left-section {
+            font-size: 2.47rem;
+        }
+
+        .left-section div {
+            width: auto;
+        }
+
+        .second-section {
+            max-width: 80vw;
+            height: 80vh;
+            margin: auto;
+        }
+
+        .second-section h1 {
+            font-size: 1.9rem;
+        }
+
+        .second-section .box {
+            display: flex;
+            background: #dbd8e3;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+        }
+
+        .second-section .box .vertical {
+            background: #dbd8e3;
+            margin: 0 12.5%;
+            height: 90px;
+            width: 1px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -12px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            left: -56px;
+            width: 160px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            left: -56px;
+            width: 160px;
+            color: grey;
+            font-size: 10px;
+        }
+
+        .text-color {
+            color: rgb(123, 123, 230);
+        }
+
+        .text-grey {
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <h1>Abhijit's Portfolio</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                Hi, My name is <span class="text-color">Abhijit</span>
+                <div>and I am the best</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+            </div>
+            <div class="right-section">
+                <img src="/Images/developer.webp" alt="developerPNG">
+            </div>
+        </section>
+        <hr>
+        <section class="second-section">
+            <span class="text-grey">What I have done so far?</span>
+            <h1>Work Experiences</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="/Images/python.png" alt="developer-1">
+                    <div class="vertical-title">
+                        Python Developer (2020-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Started with Python basics, then delved into web development using Django and Flask. Explored
+                        data analysis and machine learning libraries, honing skills through hands-on projects. Now, a
+                        proficient Python Developer passionate about creating innovative solutions.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/Images/html.webp" alt="HTML">
+                    <div class="vertical-title">
+                        HTML Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Began with HTML fundamentals, crafting simple web pages. Progressed to mastering CSS for styling
+                        and JavaScript for interactivity. Explored responsive design and modern frameworks like
+                        Bootstrap. Now, a skilled HTML Developer focused on creating engaging web experiences.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/Images/react.png" alt="react">
+                    <div class="vertical-title">
+                        React Developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Started with React basics, building single-page applications. Explored state management with
+                        Redux and context API. Dived into component lifecycle and hooks for dynamic UIs. Now, a
+                        proficient React Developer passionate about crafting interactive and scalable web applications.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/Images/developer-1.webp" alt="Full Stack">
+                    <div class="vertical-title">
+                        Full Stack Developer (2024-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Began by learning front-end technologies like HTML, CSS, and JavaScript. Delved into back-end
+                        development with frameworks like Node.js and Django. Explored databases, API integrations, and
+                        cloud services. Now, a versatile Full Stack Developer skilled in both front-end and back-end
+                        technologies, capable of building end-to-end web solutions.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['that the world didn\'t anticipate.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>
